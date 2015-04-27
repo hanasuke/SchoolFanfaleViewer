@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+  @IBOutlet weak var webView: UIWebView!
+
+  var targetUrl = "http://www.yahoo.co.jp/"
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -18,8 +23,18 @@ class ViewController: UIViewController {
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
+
+    loadTargetUrl()
   }
 
+  func loadTargetUrl() {
+    
+    let requestUrl = NSURL(string: targetUrl)
+    let request = NSURLRequest(URL: requestUrl!)
+    
+    webView.loadRequest(request)
+    //webView.scalesPageToFit = true
+  }
 
 }
 
