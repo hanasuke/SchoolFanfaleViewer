@@ -409,6 +409,7 @@
 				68ADC9D81AEE5B83008CA17A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68ADC9D91AEE5B83008CA17A /* Build configuration list for PBXNativeTarget "SchoolFanfaleViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				68ADC9DB1AEE5B83008CA17A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
