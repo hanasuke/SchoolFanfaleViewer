@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
   @IBOutlet weak var webView: UIWebView!
 
-  var targetUrl = "http://www.yahoo.co.jp/"
+  var targetUrl = "https://mg.amebagames.com/"
   
   override func viewDidLoad() {
     super.viewDidLoad()
